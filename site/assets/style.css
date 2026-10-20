@@ -235,6 +235,10 @@ h1,h2,h3,h4{font-family:var(--display);font-weight:600;line-height:1.08;margin:0
   gap:clamp(1.4rem,2.6vw,2.1rem);
 }
 
+/* `display:flex` abaixo venceria o display:none do atributo [hidden];
+   esta regra garante que um card filtrado realmente saia do fluxo. */
+.card[hidden]{display:none !important}
+
 .card{
   position:relative;display:flex;flex-direction:column;
   background:#fff;border-radius:var(--r);overflow:hidden;

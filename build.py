@@ -16,7 +16,7 @@ TEL_FIXO = "+554830255999"
 TEL_FIXO_FMT = "(48) 3025-5999"
 TEL_CEL_FMT = "(48) 99915-7432"
 EMAIL = "contato@ceoipremium.com.br"
-ENDERECO = "Av. Mauro Ramos, 825 — Centro<br>Florianópolis — SC, 88020-302"
+ENDERECO = "Av. Mauro Ramos, 825, Centro<br>Florianópolis, SC, 88020-302"
 MAPS = "https://www.google.com/maps/search/?api=1&query=Av.+Mauro+Ramos,+825,+Centro,+Florian%C3%B3polis+-+SC,+88020-302"
 INSTA = "https://www.instagram.com/escolaceoipremium"
 FACE = "https://www.facebook.com/escolaceoi"
@@ -86,8 +86,8 @@ def header(depth=0):
     return f"""
 <header class="site-header">
   <div class="wrap">
-    <a class="brand" href="{p}index.html" aria-label="CEOI Premium — página inicial">
-      <img src="{p}images/logo.png" alt="" width="42" height="42">
+    <a class="brand" href="{p}index.html" aria-label="CEOI Premium, página inicial">
+      <img src="{p}images/logo.webp" alt="" width="42" height="42">
       <span class="brand-txt"><b>CEOI Premium</b><span>Florianópolis · SC</span></span>
     </a>
     <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
@@ -109,8 +109,8 @@ def footer(depth=0):
   <div class="wrap">
     <div class="foot-grid">
       <div class="foot-brand">
-        <img src="{p}images/logo.png" alt="CEOI Premium" width="40" height="40">
-        <span>Centro de Ensino Odontológico da Ilha<br>Florianópolis — Santa Catarina</span>
+        <img src="{p}images/logo.webp" alt="CEOI Premium" width="40" height="40">
+        <span>Centro de Ensino Odontológico da Ilha<br>Florianópolis, Santa Catarina</span>
       </div>
       <div class="socials">
         <a href="{INSTA}" target="_blank" rel="noopener" aria-label="Instagram">{ICO['ig']}</a>
@@ -142,7 +142,7 @@ def card(c, depth=0):
     if not meta and c["publico"]:
         meta.append(f'<span>{ICO["user"]}{e(c["publico"])}</span>')
     desc = c["objetivo"] or f'Curso de {c["tipo"].lower()} em {c["titulo"]}, ministrado por professores de referência no mercado odontológico.'
-    return f"""      <article class="card reveal">
+    return f"""      <article class="card reveal" data-tipo="{e(c["tipo"])}">
         <div class="card-media">
           <span class="tag {cls}">{e(c["tipo"])}</span>
           <img src="{p}{c['img_local']}" alt="{e(c['titulo'])}" loading="lazy" width="800" height="1000">
@@ -178,7 +178,7 @@ def build_index(courses):
     ld = {
         "@context": "https://schema.org",
         "@type": "EducationalOrganization",
-        "name": "CEOI Premium — Centro de Ensino Odontológico da Ilha",
+        "name": "CEOI Premium | Centro de Ensino Odontológico da Ilha",
         "url": "https://ceoipremium.com.br/",
         "telephone": TEL_FIXO,
         "email": EMAIL,
@@ -198,7 +198,7 @@ def build_index(courses):
           <p class="eyebrow eyebrow--lt">Florianópolis · Santa Catarina · Desde 2015</p>
           <h1>Odontologia<br>que se aprende<br><em>na prática.</em></h1>
           <p class="hero-lead">Especializações, aperfeiçoamentos e imersões para cirurgiões-dentistas,
-          conduzidos por professores que são referência no mercado — em uma estrutura
+          conduzidos por professores que são referência no mercado, em uma estrutura
           pensada para a clínica real.</p>
           <div class="hero-cta">
             <a class="btn btn--gold" href="#cursos">Conhecer os cursos</a>
@@ -245,7 +245,7 @@ def build_index(courses):
           na Especialização em Implantodontia. Ao final daquele mesmo ano, o número já era
           dez vezes maior.</p>
           <p>O instituto construiu sua identidade na relação próxima com as universidades locais
-          e na valorização do cirurgião-dentista — e se tornou <strong>a escola que mais cresceu</strong>
+          e na valorização do cirurgião-dentista. Assim se tornou <strong>a escola que mais cresceu</strong>
           entre as instituições do grupo Harmonique.</p>
           <p>Da necessidade de ampliar a estrutura nasceu o <strong>Premium</strong>: um espaço que
           reúne conforto, modernidade e tecnologia para sustentar a próxima etapa.</p>
@@ -319,10 +319,10 @@ def build_index(courses):
   </section>
 </main>"""
 
-    desc = ("CEOI Premium — Centro de Ensino Odontológico da Ilha. Especializações, "
+    desc = ("CEOI Premium | Centro de Ensino Odontológico da Ilha. Especializações, "
             "aperfeiçoamentos e imersões para cirurgiões-dentistas em Florianópolis/SC.")
     with open(os.path.join(SITE, "index.html"), "w", encoding="utf-8") as f:
-        f.write(head("CEOI Premium — Cursos de Odontologia em Florianópolis", desc, 0, extra)
+        f.write(head("CEOI Premium | Cursos de Odontologia em Florianópolis", desc, 0, extra)
                 + header(0) + body + footer(0))
 
 
@@ -423,7 +423,7 @@ def build_course(c, courses):
           </div>
         </div>
         <div class="detail-poster">
-          <img src="../{c['img_local']}" alt="{e(c['titulo'])} — CEOI Premium" width="800" height="1000">
+          <img src="../{c['img_local']}" alt="{e(c['titulo'])} | CEOI Premium" width="800" height="1000">
         </div>
       </div>
     </div>
@@ -442,7 +442,7 @@ def build_course(c, courses):
 {related}
 </main>"""
 
-    title = f"{c['titulo']} — {c['tipo']} | CEOI Premium"
+    title = f"{c['titulo']} | {c['tipo']} | CEOI Premium"
     desc = (lead or c["titulo"])[:160]
     with open(os.path.join(OUT_COURSES, c["slug"] + ".html"), "w", encoding="utf-8") as f:
         f.write(head(title, desc, 1, extra) + header(1) + body + footer(1))

@@ -49,11 +49,12 @@
 
         var shown = 0;
         cards.forEach(function (card) {
-          var tag = card.querySelector('.tag');
-          var type = tag ? tag.textContent.trim() : '';
+          var type = card.dataset.tipo || '';
           var match = filter === 'todos' || type === filter;
           card.hidden = !match;
-          if (match) shown++;
+          // Um card filtrado pode nunca ter entrado na viewport, e ficaria
+          // invisível (opacity:0) ao ser mostrado. Revela na hora.
+          if (match) { card.classList.add('in'); shown++; }
         });
 
         if (empty) empty.hidden = shown !== 0;
