@@ -1,5 +1,48 @@
 [
  {
+  "slug": "ortodontia-com-enfase-em-hof",
+  "titulo": "Ortodontia",
+  "tipo": "Especialização",
+  "img_remote": "https://ceoipremium.com.br/wp-content/uploads/2026/02/Ortodontia-com-enfase-em-hof-819x1024.jpeg",
+  "img_local": "images/ortodontia-com-enfase-em-hof.webp",
+  "url_origem": "https://ceoipremium.com.br/ortodontia-com-enfase-em-hof/",
+  "objetivo": "O curso de Pós-Graduação (lato sensu) em Ortodontia prima em oferecer aos seus alunos uma formação ampla, eclética e diferenciada. Nosso corpo docente com experiência há mais de 15 anos, proporciona assistência no planejamento dos casos clínicos particulares dos nossos alunos e experiência clínica de todos os nossos professores aos nossos alunos.",
+  "duracao": "32 módulos",
+  "dias": "quinta à sábado (manhã/tarde/noite)",
+  "publico": "Cirurgiões Dentistas",
+  "modulos": [
+   "Marketing aplicado",
+   "Clínica Ortodôntica – Pacientes infantis, adolescentes e adultos",
+   "Ética e legislação odontológica",
+   "Fotografia",
+   "A Ortodontia e suas co-relações com as diversas áreas da odontologia",
+   "Toxina Botulínica na Ortodontia"
+  ],
+  "professores": [
+   {
+    "nome": "Orto Intelligence",
+    "cargo": "",
+    "creds": [
+     "Dr. Cristiano Duarte Peres",
+     "Dr. Giovani Mello",
+     "Dr. Rômulo D Avila Pedrini",
+     "Drª. Helena Bussolo Cardoso",
+     "Drª. Ana Paula Denoni Freitas",
+     "Drª. Maíta Kormann Gonçalves Dagnoni",
+     "Drª. Maria Fernanda Barreto Jorge",
+     "Dr. Roberto Viek",
+     "Dr. Ricardo Espindola",
+     "Dr. Rogerio Silva",
+     "Drª. Rapha Madeiros",
+     "Drª. Saionara Batistton",
+     "Drª. Camilla Guedes",
+     "Drª. Ana Kely Pedrini"
+    ]
+   }
+  ],
+  "subtitulo": "Com ênfase em alinhadores invisíveis"
+ },
+ {
   "slug": "harmonizacao-orofacial",
   "titulo": "Harmonização Orofacial",
   "tipo": "Especialização",
@@ -67,7 +110,8 @@
      "Profª dos cursos de Harmonização Orofacial do IMMAPE"
     ]
    }
-  ]
+  ],
+  "subtitulo": ""
  },
  {
   "slug": "implantodontia",
@@ -209,7 +253,95 @@
      "Especialista em Prótese Dentári- ABO/SC"
     ]
    }
-  ]
+  ],
+  "subtitulo": ""
+ },
+ {
+  "slug": "dentistica-com-enfase-em-hof",
+  "titulo": "Dentística",
+  "tipo": "Especialização",
+  "img_remote": "https://ceoipremium.com.br/wp-content/uploads/2026/02/Especializacao-em-Dentistica-com-Enfase-em-HoF-819x1024.jpeg",
+  "img_local": "images/dentistica-com-enfase-em-hof.webp",
+  "url_origem": "https://ceoipremium.com.br/especializacao/dentistica-com-enfase-em-hof/",
+  "objetivo": "",
+  "duracao": "",
+  "dias": "",
+  "publico": "Cirurgiões Dentistas",
+  "modulos": [],
+  "professores": [],
+  "subtitulo": "Com ênfase em Reabilitação Oral"
+ },
+ {
+  "slug": "endodontia",
+  "titulo": "Endodontia",
+  "tipo": "Especialização",
+  "img_remote": "https://ceoipremium.com.br/wp-content/uploads/2026/02/Especializacao-em-endodontia-819x1024.jpeg",
+  "img_local": "images/endodontia.webp",
+  "url_origem": "https://ceoipremium.com.br/endodontia/",
+  "objetivo": "O objetivo do Curso é preparar os profissionais, ampliando sua experiência clínica, seu conhecimento técnico e biológico no âmbito da Endodontia. Para atingir esta meta, é necessário que o estudante se conscientize da necessidade de aprimoramento em conhecimentos fundamentais voltados para o Diagnóstico e Planejamento Clínico, procurando entender a Endodontia em seus diferentes aspectos. Somente desta maneira terá condições de executar tecnicamente com excelência, os diversos procedimentos Endodônticos, fornecendo tratamentos de alto nível a seus pacientes.",
+  "duracao": "24 módulos",
+  "dias": "segunda a quarta (tarde/noite)",
+  "publico": "Cirurgiões Dentistas",
+  "modulos": [],
+  "professores": [
+   {
+    "nome": "Prof. Fernando dos Reis",
+    "cargo": "Coordenação",
+    "creds": [
+     "Especialista em endodontia pela academia brasileira de medicina militar (Exército)",
+     "Mestre em endodontia pela São Leopoldo Mandic",
+     "Doutorando em endodontia pela São Leopoldo Mandic (Brasil) e Universidade de Buenos Aires - UBA (Argentina)",
+     "Autor do livro Tecnologias Endodônticas Vol 01. Ed Grupo GEN 2015",
+     "Autor de artigos nacionais e internacionais",
+     "Speaker oficial da Denco",
+     "Coordenador dos cursos de especialização em endodontia da Fapes (São Pauli-SP), Universidade São Judas Tadeu (São Paulo-SP), Instituto Pós Saúde (São Luís-MA), IOA (Campo Grande-MS), Universidade BH (Belo HorizonteMG) e CEOI (Florianópolis-SC)"
+    ]
+   },
+   {
+    "nome": "Profª. Gislaini de Souza",
+    "cargo": "Professora",
+    "creds": [
+     "Formada pela Universidade do Planalto Catarinense (UNIPLAC)",
+     "Especialista em Endodontia pela Zenith Educação Continuada (Florianópolis-SC)",
+     "Professora Assistente dos cursos de especialização em endodontia do CEOI Premium (Florianópolis-SC), IOA Campo Grande (MS), Fapes (SP) e Pós Saúde (São Luís-MA)"
+    ]
+   },
+   {
+    "nome": "Profª. Thais Grizza",
+    "cargo": "Professora",
+    "creds": [
+     "Formada pela UFPel - Universidade Federal de Pelotas",
+     "Especialista em Endodontia pela Zenith Educação Continuada (Florianópolis-SC)",
+     "Professora Assistente dos cursos de especialização em endodontia do CEOI Premium (Florianópolis-SC), IOA Campo Grande (MS), Fapes (SP) e Pós Saúde (São Luís-MA)"
+    ]
+   },
+   {
+    "nome": "Profª. Bruna Fischer",
+    "cargo": "Professora",
+    "creds": [
+     "Formada pela Universidade Federal de Santa Maria",
+     "Especialista em Endodontia pela Zenith Educação Continuada (Florianópolis-SC)",
+     "Mestranda em Endodontia pela Universidade Federal de Santa Catarina - UFSC",
+     "Professora Assistente dos cursos de especialização em endodontia do CEOI Premium (Florianópolis-SC), IOA Campo Grande (MS), Fapes (SP) e Pós Saúde (São Luís-MA)"
+    ]
+   }
+  ],
+  "subtitulo": ""
+ },
+ {
+  "slug": "dupla-certificacao-implantodontia-periodontia",
+  "tipo": "Especialização",
+  "objetivo": "Formação que reúne Implantodontia e Periodontia em um único programa, com dupla certificação ao final do curso.",
+  "duracao": "",
+  "dias": "",
+  "publico": "Cirurgiões Dentistas",
+  "modulos": [],
+  "professores": [],
+  "img_local": "images/implantodontia.webp",
+  "img_remote": "",
+  "url_origem": "",
+  "titulo": "Dupla Certificação em Implantodontia e Periodontia",
+  "subtitulo": ""
  },
  {
   "slug": "protese-dentaria",
@@ -306,179 +438,8 @@
      "Habilitação em Laser"
     ]
    }
-  ]
- },
- {
-  "slug": "ortodontia-com-enfase-em-hof",
-  "titulo": "Ortodontia com Ênfase em HOF",
-  "tipo": "Especialização",
-  "img_remote": "https://ceoipremium.com.br/wp-content/uploads/2026/02/Ortodontia-com-enfase-em-hof-819x1024.jpeg",
-  "img_local": "images/ortodontia-com-enfase-em-hof.webp",
-  "url_origem": "https://ceoipremium.com.br/ortodontia-com-enfase-em-hof/",
-  "objetivo": "O curso de Pós-Graduação (lato sensu) em Ortodontia prima em oferecer aos seus alunos uma formação ampla, eclética e diferenciada. Nosso corpo docente com experiência há mais de 15 anos, proporciona assistência no planejamento dos casos clínicos particulares dos nossos alunos e experiência clínica de todos os nossos professores aos nossos alunos.",
-  "duracao": "32 módulos",
-  "dias": "quinta à sábado (manhã/tarde/noite)",
-  "publico": "Cirurgiões Dentistas",
-  "modulos": [
-   "Marketing aplicado",
-   "Clínica Ortodôntica – Pacientes infantis, adolescentes e adultos",
-   "Ética e legislação odontológica",
-   "Fotografia",
-   "A Ortodontia e suas co-relações com as diversas áreas da odontologia",
-   "Toxina Botulínica na Ortodontia"
   ],
-  "professores": [
-   {
-    "nome": "Orto Intelligence",
-    "cargo": "",
-    "creds": [
-     "Dr. Cristiano Duarte Peres",
-     "Dr. Giovani Mello",
-     "Dr. Rômulo D Avila Pedrini",
-     "Drª. Helena Bussolo Cardoso",
-     "Drª. Ana Paula Denoni Freitas",
-     "Drª. Maíta Kormann Gonçalves Dagnoni",
-     "Drª. Maria Fernanda Barreto Jorge",
-     "Dr. Roberto Viek",
-     "Dr. Ricardo Espindola",
-     "Dr. Rogerio Silva",
-     "Drª. Rapha Madeiros",
-     "Drª. Saionara Batistton",
-     "Drª. Camilla Guedes",
-     "Drª. Ana Kely Pedrini"
-    ]
-   }
-  ]
- },
- {
-  "slug": "endodontia",
-  "titulo": "Endodontia",
-  "tipo": "Especialização",
-  "img_remote": "https://ceoipremium.com.br/wp-content/uploads/2026/02/Especializacao-em-endodontia-819x1024.jpeg",
-  "img_local": "images/endodontia.webp",
-  "url_origem": "https://ceoipremium.com.br/endodontia/",
-  "objetivo": "O objetivo do Curso é preparar os profissionais, ampliando sua experiência clínica, seu conhecimento técnico e biológico no âmbito da Endodontia. Para atingir esta meta, é necessário que o estudante se conscientize da necessidade de aprimoramento em conhecimentos fundamentais voltados para o Diagnóstico e Planejamento Clínico, procurando entender a Endodontia em seus diferentes aspectos. Somente desta maneira terá condições de executar tecnicamente com excelência, os diversos procedimentos Endodônticos, fornecendo tratamentos de alto nível a seus pacientes.",
-  "duracao": "24 módulos",
-  "dias": "segunda a quarta (tarde/noite)",
-  "publico": "Cirurgiões Dentistas",
-  "modulos": [],
-  "professores": [
-   {
-    "nome": "Prof. Fernando dos Reis",
-    "cargo": "Coordenação",
-    "creds": [
-     "Especialista em endodontia pela academia brasileira de medicina militar (Exército)",
-     "Mestre em endodontia pela São Leopoldo Mandic",
-     "Doutorando em endodontia pela São Leopoldo Mandic (Brasil) e Universidade de Buenos Aires - UBA (Argentina)",
-     "Autor do livro Tecnologias Endodônticas Vol 01. Ed Grupo GEN 2015",
-     "Autor de artigos nacionais e internacionais",
-     "Speaker oficial da Denco",
-     "Coordenador dos cursos de especialização em endodontia da Fapes (São Pauli-SP), Universidade São Judas Tadeu (São Paulo-SP), Instituto Pós Saúde (São Luís-MA), IOA (Campo Grande-MS), Universidade BH (Belo HorizonteMG) e CEOI (Florianópolis-SC)"
-    ]
-   },
-   {
-    "nome": "Profª. Gislaini de Souza",
-    "cargo": "Professora",
-    "creds": [
-     "Formada pela Universidade do Planalto Catarinense (UNIPLAC)",
-     "Especialista em Endodontia pela Zenith Educação Continuada (Florianópolis-SC)",
-     "Professora Assistente dos cursos de especialização em endodontia do CEOI Premium (Florianópolis-SC), IOA Campo Grande (MS), Fapes (SP) e Pós Saúde (São Luís-MA)"
-    ]
-   },
-   {
-    "nome": "Profª. Thais Grizza",
-    "cargo": "Professora",
-    "creds": [
-     "Formada pela UFPel - Universidade Federal de Pelotas",
-     "Especialista em Endodontia pela Zenith Educação Continuada (Florianópolis-SC)",
-     "Professora Assistente dos cursos de especialização em endodontia do CEOI Premium (Florianópolis-SC), IOA Campo Grande (MS), Fapes (SP) e Pós Saúde (São Luís-MA)"
-    ]
-   },
-   {
-    "nome": "Profª. Bruna Fischer",
-    "cargo": "Professora",
-    "creds": [
-     "Formada pela Universidade Federal de Santa Maria",
-     "Especialista em Endodontia pela Zenith Educação Continuada (Florianópolis-SC)",
-     "Mestranda em Endodontia pela Universidade Federal de Santa Catarina - UFSC",
-     "Professora Assistente dos cursos de especialização em endodontia do CEOI Premium (Florianópolis-SC), IOA Campo Grande (MS), Fapes (SP) e Pós Saúde (São Luís-MA)"
-    ]
-   }
-  ]
- },
- {
-  "slug": "dentistica-com-enfase-em-hof",
-  "titulo": "Dentística com Ênfase em HOF",
-  "tipo": "Especialização",
-  "img_remote": "https://ceoipremium.com.br/wp-content/uploads/2026/02/Especializacao-em-Dentistica-com-Enfase-em-HoF-819x1024.jpeg",
-  "img_local": "images/dentistica-com-enfase-em-hof.webp",
-  "url_origem": "https://ceoipremium.com.br/especializacao/dentistica-com-enfase-em-hof/",
-  "objetivo": "",
-  "duracao": "",
-  "dias": "",
-  "publico": "Cirurgiões Dentistas",
-  "modulos": [],
-  "professores": []
- },
- {
-  "slug": "mini-residencia-em-hof",
-  "titulo": "Mini Residência em HOF",
-  "tipo": "Mini Residência",
-  "img_remote": "https://ceoipremium.com.br/wp-content/uploads/2022/08/mini_residencia.png",
-  "img_local": "images/mini-residencia-em-hof.webp",
-  "url_origem": "https://ceoipremium.com.br/mini-residencia-em-hof/",
-  "objetivo": "A Harmonização Orofacial é uma associação de várias técnicas, visando um equilíbrio e buscando a excelência entre a relação estética e funcional da face. Possibilitando a correção de assimetrias, melhor proporções faciais e garantir um aspecto rejuvenescido, trazendo a auto estima. Nossa",
-  "duracao": "7 módulos",
-  "dias": "segunda e terça-feira (manhã/tarde)",
-  "publico": "Cirurgiões Dentistas",
-  "modulos": [
-   "proposta é a aplicação de técnicas inovadoras, buscando o aprimoramento profissional elevado"
-  ],
-  "professores": [
-   {
-    "nome": "Drª. Elaine Scholz",
-    "cargo": "",
-    "creds": [
-     "Mestranda em Harmonização Orofacial – São Leopoldo Mandic",
-     "Pós Graduada em Harmonização Orofacial – Avantis SC",
-     "Pós graduada em Ortodontia e Ortopedia Facial",
-     "Professora e Coordenadora de Cursos Especialização e Aperfeiçoamentos em HOF",
-     "Pós Graduada em Odontologia – UEPG"
-    ]
-   },
-   {
-    "nome": "Drª. Marilza Bertoni",
-    "cargo": "",
-    "creds": [
-     "Mestranda em Harmonização Orofacial – São Leopoldo Mandic",
-     "Pós Graduada em Harmonização Orofacial – Avantis SC",
-     "Pós Graduada em Dentística Restauradora – UFSC",
-     "Pós Graduada em Ortodontia - Avantis SC",
-     "Professora e Coordenadora de Cursos Especialização e Aperfeiçoamentos em HOF"
-    ]
-   },
-   {
-    "nome": "Dr. Gustavo Holtz Galvão",
-    "cargo": "",
-    "creds": [
-     "Mestrado profissional em Odontologia Clínica – Universidade POSITIVO/PR",
-     "Pós-Graduada em Harmonização Orofacial – Avantis SC",
-     "Pós Graduação pela Dental International Filler Neurotoxin Education",
-     "Pós-Graduado em Toxina Botulínica e Preenchimento na -Odontologia, pela ODONTOX/IES",
-     "Professor de Cursos de Imersão e Pós"
-    ]
-   },
-   {
-    "nome": "Drª. Lucimara Aguiar Budel",
-    "cargo": "",
-    "creds": [
-     "Pós-Graduada em Harmonização Orofacial – Avantis SC",
-     "Pós graduada em Prótese Dental / Reabilitação Oral",
-     "Professor de Cursos de Imersão e Pós",
-     "Graduada em Odontologia – UTP"
-    ]
-   }
-  ]
+  "subtitulo": ""
  },
  {
   "slug": "cirurgia-oral-menor",
@@ -543,51 +504,8 @@
      "Membro da Sociedade Brasileira de Estomatologia e Patologia Oral (SOBEP)"
     ]
    }
-  ]
- },
- {
-  "slug": "full-face",
-  "titulo": "FULL FACE – TOXINA BOTULÍNICA E PREENCHEDORES FACIAIS",
-  "tipo": "Imersão",
-  "img_remote": "https://ceoipremium.com.br/wp-content/uploads/2022/08/full-face.png",
-  "img_local": "images/full-face.webp",
-  "url_origem": "https://ceoipremium.com.br/full-face/",
-  "objetivo": "Capacitar os alunos a utilizarem a Toxina Botulínica tipo A nos procedimentos faciais funcionais e estéticos e também conhecimentos científicos e habilidades técnicas para aplicação de ácido hialurônico na face.",
-  "duracao": "",
-  "dias": "",
-  "publico": "Cirurgiões Dentistas, Biomédicos, farmacêuticos, biólogos e médicos",
-  "modulos": [
-   "IMERSÃO",
-   "DIFERENCIAIS DO CURSO:",
-   "Material completo incluso",
-   "Planejamento",
-   "Pratica clínica em pacientes",
-   "Professoras experientes"
   ],
-  "professores": [
-   {
-    "nome": "Drª. Marilza Bertoni",
-    "cargo": "",
-    "creds": [
-     "Mestranda em Harmonização Orofacial – São Leopoldo Mandic",
-     "Pós Graduada em Harmonização Orofacial – Avantis SC",
-     "Pós Graduada em Dentística Restauradora – UFSC",
-     "Pós Graduada em Ortodontia - Avantis SC",
-     "Professora e Coordenadora de Cursos de Imersão, Aperfeiçoamento e Pós Graduação em HOF"
-    ]
-   },
-   {
-    "nome": "Drª. Elaine Scholz",
-    "cargo": "",
-    "creds": [
-     "Mestranda em Harmonização Orofacial – São Leopoldo Mandic",
-     "Pós Graduada em Harmonização Orofacial – Avantis SC",
-     "Pós graduada em Ortodontia e Ortopedia Facial",
-     "Professora e Coordenadora de Cursos Especialização e Aperfeiçoamentos em HOF",
-     "Pós Graduada em Odontologia – UEPG"
-    ]
-   }
-  ]
+  "subtitulo": ""
  },
  {
   "slug": "aperfeicoamento-endodontia",
@@ -601,25 +519,12 @@
   "dias": "",
   "publico": "Cirurgiões Dentistas",
   "modulos": [],
-  "professores": []
- },
- {
-  "slug": "desenho-do-sorriso-facetas-resina-e-ceramica",
-  "titulo": "Desenho do Sorriso – Facetas de Resina e Cerâmica",
-  "tipo": "Aperfeiçoamento",
-  "img_remote": "https://ceoipremium.com.br/wp-content/uploads/2022/02/facetas-de-resina-e-ceramica1.jpg",
-  "img_local": "images/desenho-do-sorriso-facetas-resina-e-ceramica.webp",
-  "url_origem": "https://ceoipremium.com.br/aperfeicoamento/desenho-do-sorriso-facetas-de-resina-e-ceramica/",
-  "objetivo": "",
-  "duracao": "",
-  "dias": "",
-  "publico": "Cirurgiões Dentistas",
-  "modulos": [],
-  "professores": []
+  "professores": [],
+  "subtitulo": ""
  },
  {
   "slug": "protese-fixa-e-sobre-implante",
-  "titulo": "Prótese Fixa e Sobre Implante",
+  "titulo": "Prótese Fixa e Sobre Implantes",
   "tipo": "Aperfeiçoamento",
   "img_remote": "https://ceoipremium.com.br/wp-content/uploads/2026/02/Aperfeicoamento-em-protese-fixa-e-sobre-implantes-819x1024.jpeg",
   "img_local": "images/protese-fixa-e-sobre-implante.webp",
@@ -703,257 +608,128 @@
      "Habilitação em Laser"
     ]
    }
-  ]
+  ],
+  "subtitulo": ""
  },
  {
-  "slug": "traumatismo-dental-e-suas-sequelas",
-  "titulo": "Traumatismo Dental e suas Sequelas",
-  "tipo": "Imersão",
-  "img_remote": "https://ceoipremium.com.br/wp-content/uploads/2023/01/traumatismo_dental-card.jpg",
-  "img_local": "images/traumatismo-dental-e-suas-sequelas.webp",
-  "url_origem": "https://ceoipremium.com.br/traumatismo-dental-e-suas-sequelas/",
-  "objetivo": "O objetivo geral do curso de Pós-Graduação Lato Sensu, Especialização em Harmonização Facial é habilitar e capacitar profissionais da saúde responsáveis, nas áreas do conhecimento concernentes à saúde estética, contribuindo para o desenvolvimento do setor da região em que atuam.",
-  "duracao": "",
-  "dias": "02, 03 e 04 Março/2023",
-  "publico": "Cirurgiões Dentistas/acadêmicos",
-  "modulos": [],
-  "professores": [
-   {
-    "nome": "Dr. Ilson José Soares",
-    "cargo": "Doutor em Endodontia - UFSC",
-    "creds": [
-     "Especialista em Endodontia (1970)",
-     "Especialista em Radiologia (1972)",
-     "Livre docente em Endodontia pela UFSC (1976)",
-     "Doutor em Endodontia pela UFSC (1977)",
-     "Mestre em Radiologia pela UFSC (1979)",
-     "Professor Titular da Cátedra de Endodontia, da Faculdade de Odontologia da Universidade Federal de Santa Catarina, - Brasil - de 1967 a 1997",
-     "Coordenador e Professor dos Cursos de Pós-Graduação em Endodontia (Especialização) da Universidade Federal de Santa Catarina – Brasil - de 1976 a 1995",
-     "Coordenador e Professor dos Cursos de Pós-Graduação em Endodontia (Mestrado) da Universidade Federal de Santa Catarina – Brasil - de 1993 a 1997",
-     "Coordenador e Professor dos Cursos de Pós-Graduação em Endodontia (Especialização) da Faculdade de Odontologia da Universidade Católica do Paraná (PUC) – Curitiba – Brasil - de 1984 a 1989",
-     "Pesquisador credenciado pelo Conselho Nacional de Pesquisa (CNPq) de 1986 a 1996",
-     "Teses orientadas – 26",
-     "Trabalhos publicados – 96",
-     "Cursos ministrados – 302",
-     "Autor do Livro – Endodontia – Técnicas e Fundamentos, Porto Alegre, ed. Artmed, 2011, 2ª Ed"
-    ]
-   },
-   {
-    "nome": "Prof. Fernando dos Reis",
-    "cargo": "Coordenação",
-    "creds": [
-     "Especialista em endodontia pela academia brasileira de medicina militar (Exército)",
-     "Mestre em endodontia pela São Leopoldo Mandic",
-     "Doutorando em endodontia pela São Leopoldo Mandic (Brasil) e Universidade de Buenos Aires - UBA (Argentina)",
-     "Autor do livro Tecnologias Endodônticas Vol 01. Ed Grupo GEN 2015",
-     "Autor de artigos nacionais e internacionais",
-     "Speaker oficial da Denco",
-     "Coordenador dos cursos de especialização em endodontia da Fapes (São Pauli-SP), Universidade São Judas Tadeu (São Paulo-SP), Instituto Pós Saúde (São Luís-MA), IOA (Campo Grande-MS), Universidade BH (Belo HorizonteMG) e CEOI (Florianópolis-SC)"
-    ]
-   }
-  ]
- },
- {
-  "slug": "resina-composta-anterior",
-  "titulo": "Resina – MAKE SMILE",
-  "tipo": "Imersão",
-  "img_remote": "https://ceoipremium.com.br/wp-content/uploads/2022/08/resinta.png",
-  "img_local": "images/resina-composta-anterior.webp",
-  "url_origem": "https://ceoipremium.com.br/resina-composta-anterior/",
-  "objetivo": "Alunos de graduação, recém-formados ou cirurgiões dentistas experientes que já possuam experiência em restaurações estéticas anteriores e desejam aprender novas técnicas na confecção de facetas diretas em resina. Natureza do curso: Teórico, prático laboratorial, atendimento clínico demonstrativo",
+  "slug": "dentistica-restauradora",
+  "tipo": "Aperfeiçoamento",
+  "objetivo": "Aperfeiçoamento em Dentística Restauradora, voltado à execução de restaurações estéticas e funcionais na rotina clínica.",
   "duracao": "",
   "dias": "",
   "publico": "Cirurgiões Dentistas",
+  "modulos": [],
+  "professores": [],
+  "img_local": "images/dentistica-com-enfase-em-hof.webp",
+  "img_remote": "",
+  "url_origem": "",
+  "titulo": "Dentística Restauradora",
+  "subtitulo": ""
+ },
+ {
+  "slug": "mini-residencia-em-hof",
+  "titulo": "Harmonização Orofacial",
+  "tipo": "Mini Residência",
+  "img_remote": "https://ceoipremium.com.br/wp-content/uploads/2022/08/mini_residencia.png",
+  "img_local": "images/mini-residencia-em-hof.webp",
+  "url_origem": "https://ceoipremium.com.br/mini-residencia-em-hof/",
+  "objetivo": "A Harmonização Orofacial é uma associação de várias técnicas, visando um equilíbrio e buscando a excelência entre a relação estética e funcional da face. Possibilitando a correção de assimetrias, melhor proporções faciais e garantir um aspecto rejuvenescido, trazendo a auto estima. Nossa",
+  "duracao": "7 módulos",
+  "dias": "segunda e terça-feira (manhã/tarde)",
+  "publico": "Cirurgiões Dentistas",
+  "modulos": [
+   "proposta é a aplicação de técnicas inovadoras, buscando o aprimoramento profissional elevado"
+  ],
+  "professores": [
+   {
+    "nome": "Drª. Elaine Scholz",
+    "cargo": "",
+    "creds": [
+     "Mestranda em Harmonização Orofacial – São Leopoldo Mandic",
+     "Pós Graduada em Harmonização Orofacial – Avantis SC",
+     "Pós graduada em Ortodontia e Ortopedia Facial",
+     "Professora e Coordenadora de Cursos Especialização e Aperfeiçoamentos em HOF",
+     "Pós Graduada em Odontologia – UEPG"
+    ]
+   },
+   {
+    "nome": "Drª. Marilza Bertoni",
+    "cargo": "",
+    "creds": [
+     "Mestranda em Harmonização Orofacial – São Leopoldo Mandic",
+     "Pós Graduada em Harmonização Orofacial – Avantis SC",
+     "Pós Graduada em Dentística Restauradora – UFSC",
+     "Pós Graduada em Ortodontia - Avantis SC",
+     "Professora e Coordenadora de Cursos Especialização e Aperfeiçoamentos em HOF"
+    ]
+   },
+   {
+    "nome": "Dr. Gustavo Holtz Galvão",
+    "cargo": "",
+    "creds": [
+     "Mestrado profissional em Odontologia Clínica – Universidade POSITIVO/PR",
+     "Pós-Graduada em Harmonização Orofacial – Avantis SC",
+     "Pós Graduação pela Dental International Filler Neurotoxin Education",
+     "Pós-Graduado em Toxina Botulínica e Preenchimento na -Odontologia, pela ODONTOX/IES",
+     "Professor de Cursos de Imersão e Pós"
+    ]
+   },
+   {
+    "nome": "Drª. Lucimara Aguiar Budel",
+    "cargo": "",
+    "creds": [
+     "Pós-Graduada em Harmonização Orofacial – Avantis SC",
+     "Pós graduada em Prótese Dental / Reabilitação Oral",
+     "Professor de Cursos de Imersão e Pós",
+     "Graduada em Odontologia – UTP"
+    ]
+   }
+  ],
+  "subtitulo": ""
+ },
+ {
+  "slug": "full-face",
+  "titulo": "FULL FACE",
+  "tipo": "Imersão",
+  "img_remote": "https://ceoipremium.com.br/wp-content/uploads/2022/08/full-face.png",
+  "img_local": "images/full-face.webp",
+  "url_origem": "https://ceoipremium.com.br/full-face/",
+  "objetivo": "Capacitar os alunos a utilizarem a Toxina Botulínica tipo A nos procedimentos faciais funcionais e estéticos e também conhecimentos científicos e habilidades técnicas para aplicação de ácido hialurônico na face.",
+  "duracao": "",
+  "dias": "",
+  "publico": "Cirurgiões Dentistas, Biomédicos, farmacêuticos, biólogos e médicos",
   "modulos": [
    "IMERSÃO",
-   "DIAS: 31 MARÇO E 01 ABRIL 2023",
-   "DIAS: SEXTA E SÁBADO (MANHÃ/TARDE)",
-   "PÚBLICO: ACADÊMICOS/ CIRURGIÕES DENTISTAS",
-   "AO VIVO"
+   "DIFERENCIAIS DO CURSO:",
+   "Material completo incluso",
+   "Planejamento",
+   "Pratica clínica em pacientes",
+   "Professoras experientes"
   ],
   "professores": [
    {
-    "nome": "Drª. Alana Pereira",
+    "nome": "Drª. Marilza Bertoni",
     "cargo": "",
     "creds": [
-     "Mestre e Doutora em Dentística pela UFSC",
-     "Pós-graduação em Dentística ABO/BA",
-     "Ministrante de cursos e palestras na área da Dentística pelo Brasil"
-    ]
-   }
-  ]
- },
- {
-  "slug": "aumento-coroa-clinica",
-  "titulo": "Aumento Coroa Clínica",
-  "tipo": "Imersão",
-  "img_remote": "https://ceoipremium.com.br/wp-content/uploads/2022/08/aumento-coroa.png",
-  "img_local": "images/aumento-coroa-clinica.webp",
-  "url_origem": "https://ceoipremium.com.br/aumento-coroa-clinica/",
-  "objetivo": "",
-  "duracao": "",
-  "dias": "",
-  "publico": "Cirurgiões Dentistas e acadêmicos de Odontologia",
-  "modulos": [
-   "Aumento estético de Coroa Clínica (gengivoplastia) e pré-protético de coroa clínica, provisório e reabilitação",
-   "Técnica cirúrgica e suturas em modelo animal",
-   "Cirurgia demonstrativa em paciente",
-   "Iremos abordar: Aumento estético (gengivoplastia) e pré-protético de coroa clínica, provisório e reabilitação"
-  ],
-  "professores": [
-   {
-    "nome": "Prof. Caio Cesar Cremonini",
-    "cargo": "",
-    "creds": [
-     "Formado pela USP",
-     "Mestre e Doutor em Periodontia pela USP",
-     "Especialista em Periodontia e Implantodontia"
-    ]
-   }
-  ]
- },
- {
-  "slug": "lipo-de-papada",
-  "titulo": "Lipo de Papada",
-  "tipo": "Imersão",
-  "img_remote": "https://ceoipremium.com.br/wp-content/uploads/2022/02/lipo-papada1.jpg",
-  "img_local": "images/lipo-de-papada.webp",
-  "url_origem": "https://ceoipremium.com.br/lipo-de-papada/",
-  "objetivo": "O curso tem como objetivo apresentar técnicas para remoção da gordura submental, proporcionando definição do contorno facial, além de associar demais procedimentos que podem elevar os resultados clínicos. A remoção de gordura submental é realizada com a utilização de uma cânula de diâmetro pequeno, delicada para aspirar o excesso de gordura e dar um contorno para o ângulo entre o mento e o pescoço. O procedimento é feito com anestesia local, o regime é ambulatorial.",
-  "duracao": "",
-  "dias": "",
-  "publico": "Cirurgiões Dentistas",
-  "modulos": [],
-  "professores": [
-   {
-    "nome": "Prof. Ester Ficher",
-    "cargo": "",
-    "creds": [
-     "Especialização em Bucomaxilofacial em andamento - Fapes",
-     "Especialista em implantodontia - Unip",
-     "Especialista em Dentística Restauradora - Unicastelo Graduada pela OSEC (Unisa)",
-     "Curso de Especialização na Harmonização Orofacial - Biotox/Facsete",
-     "Curso de Harmonização Internacional Orofacial - Harvard Medical School, Boston",
-     "Curso de Credenciamento em Ozonioterapia - Ozônio Line",
-     "Curso de Credenciamento em PRF/PRP -APCD",
-     "Curso de Laserterapia na Harmonização Orofacial - DMC",
-     "Cursos Diversos na área de Harmonização Orofacial"
-    ]
-   }
-  ]
- },
- {
-  "slug": "bichectomia",
-  "titulo": "Bichectomia",
-  "tipo": "Imersão",
-  "img_remote": "https://ceoipremium.com.br/wp-content/uploads/2022/08/bichectomia.png",
-  "img_local": "images/bichectomia.webp",
-  "url_origem": "https://ceoipremium.com.br/bichectomia/",
-  "objetivo": "",
-  "duracao": "",
-  "dias": "",
-  "publico": "Cirurgiões Dentistas",
-  "modulos": [
-   "Anatomia cirúrgica da face",
-   "Semiologia do paciente cirúrgico",
-   "Biossegurança em Cirurgias",
-   "Terapêutica cirúrgica",
-   "Instrumental cirúrgico",
-   "Técnicas anestésicas em cirurgia",
-   "Princípios das cirurgias faciais",
-   "Passo a passo da técnica cirúrgica de bichectomia",
-   "Cuidados e orientações pós-operatórios",
-   "Intercorrências e complicações durante o pré-operatório, trans-operatório e pós-operatório"
-  ],
-  "professores": [
-   {
-    "nome": "Dr. Andre Xavier Padilha Favoreto",
-    "cargo": "",
-    "creds": [
-     "Cirurgião Dentista - Uniplac (2013)",
-     "Especialista, Mestre e Doutor em Cirurgia e Traumatologia Bucomaxilofacial - PUCRS",
-     "Especialista em Implantodontia - IOA Oral Esthetic",
-     "Coordenador do curso de Aperfeiçoamento em Cirurgia Oral - IOA Oral Esthetic e CEOI PREMIUM",
-     "Professor do curso de Aperfeiçoamento em Cirurgia Oral - IOA Chapecó",
-     "Professor de Graduação das Disciplinas de Cirurgia I e II, Anestesiologia e Terapêutica I e Anatomia I - UNIFACVEST",
-     "Membro do Colégio Brasileiro de Cirurgia e Traumatologia Bucomaxilofacial",
-     "Currículo Lattes: http://lattes.cnpq.br/7561167451482214"
-    ]
-   }
-  ]
- },
- {
-  "slug": "in-endo",
-  "titulo": "IN ENDO",
-  "tipo": "Imersão",
-  "img_remote": "https://ceoipremium.com.br/wp-content/uploads/2022/08/in_endo.png",
-  "img_local": "images/in-endo.webp",
-  "url_origem": "https://ceoipremium.com.br/in-endo/",
-  "objetivo": "No curso de Imersão InEndo, serão dois dias intensivos com aula teórica e muita prática laboratorial para você conhecer o diferencial da Endodontia.",
-  "duracao": "",
-  "dias": "",
-  "publico": "Cirurgiões Dentistas e acadêmicos de Odontologia",
-  "modulos": [
-   "Curso limitado, apenas 8 vagas",
-   "Materiais e Instrumentais inclusos",
-   "Disponibilização de 1 Microscópio operatório para visualização"
-  ],
-  "professores": [
-   {
-    "nome": "Drª. Beatriz S. Coelho",
-    "cargo": "",
-    "creds": [
-     "Doutora em Endodontia – Universidade Positivo",
-     "Mestre em Endodontia – Universidade Positivo",
-     "Especialista em Endodontia – Universidade Positivo",
-     "Professora de Endodontia – Unisul",
-     "Professora Curso de Aperfeiçoamento e Especialização – CEOI PREMIUM"
-    ]
-   }
-  ]
- },
- {
-  "slug": "cirurgia-plastica-periodontal-e-periimplantar",
-  "titulo": "Cirurgia Plástica Periodontal e Periimplantar",
-  "tipo": "Aperfeiçoamento",
-  "img_remote": "https://ceoipremium.com.br/wp-content/uploads/2022/08/Cirurgia-Periodontal.png",
-  "img_local": "images/cirurgia-plastica-periodontal-e-periimplantar.webp",
-  "url_origem": "https://ceoipremium.com.br/cirurgia-plastica-periodontal-e-periimplantar/",
-  "objetivo": "",
-  "duracao": "8 módulos",
-  "dias": "sexta-feira (manhã/tarde/noite)",
-  "publico": "Cirurgiões Dentistas",
-  "modulos": [
-   "Aperfeiçomaento"
-  ],
-  "professores": [
-   {
-    "nome": "Dr. Bernardo Passoni",
-    "cargo": "",
-    "creds": [
-     "Especialista em Periodontia UFSC",
-     "Mestre e Doutor em Implantodontia UFSC",
-     "Visitant Researcher, KU Leuven, Bélgica",
-     "Professor dos cursos de Especialização da Unique Cursos em Florianópolis",
-     "Consultor científico FGM Implantes",
-     "Atualização em Cirurgia Oral Menor ABO/SC",
-     "Especialista em Periodontia - UFSC",
-     "Mestre em Odontologia - área de concentração: Implantodontia - UFSC",
-     "Doutor em Odontologia - área de concentração: Implantodontia - UFSCv",
-     "Professor da Clínica Integrada I - Uniavan"
+     "Mestranda em Harmonização Orofacial – São Leopoldo Mandic",
+     "Pós Graduada em Harmonização Orofacial – Avantis SC",
+     "Pós Graduada em Dentística Restauradora – UFSC",
+     "Pós Graduada em Ortodontia - Avantis SC",
+     "Professora e Coordenadora de Cursos de Imersão, Aperfeiçoamento e Pós Graduação em HOF"
     ]
    },
    {
-    "nome": "Dr. Leonardo Bez",
+    "nome": "Drª. Elaine Scholz",
     "cargo": "",
     "creds": [
-     "Residência em Periodontia e Implantodontia (UFSC)",
-     "Mestre e Doutor em Odontologia - área de concentração: Implantodontia (UFSC)",
-     "Professor Responsável da disciplina de Implantodontia. (UNESC)",
-     "Professor na disciplina de Clínica Integrada nas áreas de Periodontia, Cirurgia Oral e Implantodontia. (UNESC)",
-     "Professor curso Cirurgias Plásticas Periodontais e Periimplantares - Unique (Florianópolis)"
+     "Mestranda em Harmonização Orofacial – São Leopoldo Mandic",
+     "Pós Graduada em Harmonização Orofacial – Avantis SC",
+     "Pós graduada em Ortodontia e Ortopedia Facial",
+     "Professora e Coordenadora de Cursos Especialização e Aperfeiçoamentos em HOF",
+     "Pós Graduada em Odontologia – UEPG"
     ]
    }
-  ]
+  ],
+  "subtitulo": "Toxina Botulínica e Preenchimento Facial"
  }
 ]

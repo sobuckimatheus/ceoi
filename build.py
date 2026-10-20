@@ -142,13 +142,15 @@ def card(c, depth=0):
     if not meta and c["publico"]:
         meta.append(f'<span>{ICO["user"]}{e(c["publico"])}</span>')
     desc = c["objetivo"] or f'Curso de {c["tipo"].lower()} em {c["titulo"]}, ministrado por professores de referência no mercado odontológico.'
+    sub = c.get("subtitulo", "")
+    sub_card = f'\n          <p class="card-sub">{e(sub)}</p>' if sub else ""
     return f"""      <article class="card reveal" data-tipo="{e(c["tipo"])}">
         <div class="card-media">
           <span class="tag {cls}">{e(c["tipo"])}</span>
           <img src="{p}{c['img_local']}" alt="{e(c['titulo'])}" loading="lazy" width="800" height="1000">
         </div>
         <div class="card-body">
-          <h3>{e(c["titulo"])}</h3>
+          <h3>{e(c["titulo"])}</h3>{sub_card}
           <div class="card-meta">{''.join(meta)}</div>
           <p class="card-desc">{e(desc)}</p>
           <a class="card-link" href="{p}cursos/{c['slug']}.html">Ver o curso {ICO['arrow']}</a>
@@ -402,6 +404,10 @@ def build_course(c, courses):
     import urllib.parse
     wa = f"https://wa.me/{WHATSAPP}?text={urllib.parse.quote(msg)}"
 
+    sub = c.get("subtitulo", "")
+    sub_hero = f'<p class="detail-sub">{e(sub)}</p>' if sub else ""
+    titulo_full = f"{c['titulo']} {sub}".strip() if sub else c['titulo']
+
     body = f"""
 <main>
   <section class="detail-hero">
@@ -414,7 +420,7 @@ def build_course(c, courses):
       <div class="detail-grid">
         <div>
           <p class="eyebrow eyebrow--lt">{e(c['tipo'])}</p>
-          <h1>{e(c['titulo'])}</h1>
+          <h1>{e(c['titulo'])}</h1>{sub_hero}
           <p class="detail-lead">{e(lead)}</p>
           <div class="detail-facts">{facts_html}</div>
           <div class="hero-cta">
@@ -442,7 +448,7 @@ def build_course(c, courses):
 {related}
 </main>"""
 
-    title = f"{c['titulo']} | {c['tipo']} | CEOI Premium"
+    title = f"{titulo_full} | {c['tipo']} | CEOI Premium"
     desc = (lead or c["titulo"])[:160]
     with open(os.path.join(OUT_COURSES, c["slug"] + ".html"), "w", encoding="utf-8") as f:
         f.write(head(title, desc, 1, extra) + header(1) + body + footer(1))

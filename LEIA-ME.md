@@ -42,26 +42,27 @@ Dados de contato (WhatsApp, telefone, e-mail, endereço) ficam no topo de `build
 
 ## O que foi extraído
 
-19 cursos, divididos em 4 formatos:
+13 cursos, conforme a arte oficial de divulgação:
 
 | Formato | Qtd |
 |---|---|
-| Especialização | 6 |
-| Aperfeiçoamento | 5 |
-| Imersão | 7 |
+| Especialização | 7 |
+| Aperfeiçoamento | 4 |
 | Mini Residência | 1 |
+| Imersão | 1 |
 
-Também: 45 professores com 260 credenciais, 134 tópicos de conteúdo programático,
+Também: professores com suas credenciais, tópicos de conteúdo programático
 e o texto institucional.
 
 ## Pontos de atenção
 
-- **Três cursos estão sem conteúdo no site original** e por isso aparecem aqui
-  apenas com título, formato e imagem: *Dentística com Ênfase em HOF*,
-  *Endodontia (aperfeiçoamento)* e *Desenho do Sorriso — Facetas de Resina e Cerâmica*.
-  As páginas originais estão vazias — é preciso enviar esses textos para completá-las.
-- **As datas de início** ("Março de 2024" etc.) não foram trazidas, porque estão
-  desatualizadas no site original. Vale definir as turmas de 2026 antes de publicar.
-- **O formulário de contato** abre o WhatsApp com a mensagem pronta — não precisa de
-  servidor. Se preferir envio por e-mail, dá para trocar por Formspree ou similar.
-- Alguns cursos não têm lista de módulos porque o site original também não tem.
+- **Dois cursos foram criados a partir da arte** e ainda não têm conteúdo próprio:
+  *Dupla Certificação em Implantodontia e Periodontia* e *Dentística Restauradora*.
+  Estão no ar com título, formato e um texto curto, usando a imagem de um curso
+  irmão. Falta enviar descrição, módulos, professores e imagem própria.
+- **Cursos sem lista de módulos** (Dentística, Endodontia aperfeiçoamento, entre
+  outros) estão assim porque o site original também não trazia esse conteúdo.
+- **As datas de início** não foram trazidas, porque estavam desatualizadas no site
+  original. Vale definir as turmas antes de divulgar.
+- **O formulário de contato** abre o WhatsApp com a mensagem pronta, sem precisar
+  de servidor. Se preferir envio por e-mail, dá para trocar por Formspree ou similar.
