@@ -11,10 +11,10 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 SITE = os.path.join(ROOT, "site")
 OUT_COURSES = os.path.join(SITE, "cursos")
 
-WHATSAPP = "5548999157432"
+WHATSAPP = "5548991104498"
 TEL_FIXO = "+554830255999"
 TEL_FIXO_FMT = "(48) 3025-5999"
-TEL_CEL_FMT = "(48) 99915-7432"
+TEL_CEL_FMT = "(48) 99110-4498"
 EMAIL = "contato@ceoipremium.com.br"
 ENDERECO = "Av. Mauro Ramos, 825, Centro<br>Florianópolis, SC, 88020-302"
 MAPS = "https://www.google.com/maps/search/?api=1&query=Av.+Mauro+Ramos,+825,+Centro,+Florian%C3%B3polis+-+SC,+88020-302"

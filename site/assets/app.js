@@ -107,7 +107,13 @@
       var msg = val('mensagem');
       if (msg) lines.push('', 'Mensagem: ' + msg);
 
-      var url = 'https://wa.me/5548999157432?text=' +
+      // O número vem do botão flutuante, gerado pelo build.py, para não
+      // existir uma segunda cópia que possa ficar desatualizada aqui.
+      var wa = document.querySelector('.wa-float');
+      var num = (wa && (wa.getAttribute('href').match(/wa\.me\/(\d+)/) || [])[1])
+                || '5548991104498';
+
+      var url = 'https://wa.me/' + num + '?text=' +
                 encodeURIComponent(lines.join('\n'));
       window.open(url, '_blank', 'noopener');
     });
