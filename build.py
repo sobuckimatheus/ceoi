@@ -5,7 +5,7 @@ Gerador do site CEOI Premium.
 Lê site/cursos_data.json e gera index.html + uma página por curso em site/cursos/.
 Uso:  python3 build.py
 """
-import json, os, re, html, shutil
+import json, os, re, html, shutil, urllib.parse
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SITE = os.path.join(ROOT, "site")
@@ -16,6 +16,11 @@ TEL_FIXO = "+554830255999"
 TEL_FIXO_FMT = "(48) 3025-5999"
 TEL_CEL_FMT = "(48) 99110-4498"
 EMAIL = "contato@ceoipremium.com.br"
+
+# Mensagem que já vem escrita ao abrir o WhatsApp pelos botões gerais.
+# As páginas de curso montam a própria, citando o curso.
+WA_MSG = "Vim pelo site e gostaria de mais informações"
+WA_LINK = f"https://wa.me/{WHATSAPP}?text={urllib.parse.quote(WA_MSG)}"
 ENDERECO = "Av. Mauro Ramos, 825, Centro<br>Florianópolis, SC, 88020-302"
 MAPS = "https://www.google.com/maps/search/?api=1&query=Av.+Mauro+Ramos,+825,+Centro,+Florian%C3%B3polis+-+SC,+88020-302"
 INSTA = "https://www.instagram.com/escolaceoipremium"
@@ -115,7 +120,7 @@ def header(depth=0):
       <a href="{p}index.html#cursos">Cursos</a>
       <a href="{p}index.html#instituto">O Instituto</a>
       <a href="{p}index.html#contato">Contato</a>
-      <a class="btn btn--navy header-cta" href="https://wa.me/{WHATSAPP}" target="_blank" rel="noopener">Fale conosco</a>
+      <a class="btn btn--navy header-cta" href="{WA_LINK}" target="_blank" rel="noopener">Fale conosco</a>
     </nav>
   </div>
 </header>"""
@@ -133,7 +138,7 @@ def footer(depth=0):
       <div class="socials">
         <a href="{INSTA}" target="_blank" rel="noopener" aria-label="Instagram">{ICO['ig']}</a>
         <a href="{FACE}" target="_blank" rel="noopener" aria-label="Facebook">{ICO['fb']}</a>
-        <a href="https://wa.me/{WHATSAPP}" target="_blank" rel="noopener" aria-label="WhatsApp">{ICO['wa']}</a>
+        <a href="{WA_LINK}" target="_blank" rel="noopener" aria-label="WhatsApp">{ICO['wa']}</a>
       </div>
     </div>
     <div class="foot-bottom">
@@ -142,7 +147,7 @@ def footer(depth=0):
     </div>
   </div>
 </footer>
-<a class="wa-float" href="https://wa.me/{WHATSAPP}" target="_blank" rel="noopener" aria-label="Conversar no WhatsApp">{ICO['wa']}</a>
+<a class="wa-float" href="{WA_LINK}" target="_blank" rel="noopener" aria-label="Conversar no WhatsApp">{ICO['wa']}</a>
 <script src="{p}assets/app.js" defer></script>
 </body>
 </html>"""
@@ -193,7 +198,6 @@ def build_index(courses):
             if c["tipo"] == t:
                 cards.append(card(c, 0))
 
-    opts = "".join(f'<option value="{e(c["titulo"])}">{e(c["titulo"])}</option>' for c in courses)
 
     ld = {
         "@context": "https://schema.org",
@@ -222,7 +226,7 @@ def build_index(courses):
           pensada para a clínica real.</p>
           <div class="hero-cta">
             <a class="btn btn--gold" href="#cursos">Conhecer os cursos</a>
-            <a class="btn btn--ghost" href="https://wa.me/{WHATSAPP}" target="_blank" rel="noopener">Falar com a secretaria</a>
+            <a class="btn btn--ghost" href="{WA_LINK}" target="_blank" rel="noopener">Falar com a secretaria</a>
           </div>
         </div>
         <div class="orbit-wrap">{ORBIT}</div>
@@ -310,30 +314,18 @@ def build_index(courses):
             <li><span class="c-ico">{ICO['phone']}</span><div><b>Telefone</b>
               <a href="tel:{TEL_FIXO}">{TEL_FIXO_FMT}</a></div></li>
             <li><span class="c-ico">{ICO['wa']}</span><div><b>WhatsApp</b>
-              <a href="https://wa.me/{WHATSAPP}" target="_blank" rel="noopener">{TEL_CEL_FMT}</a></div></li>
+              <a href="{WA_LINK}" target="_blank" rel="noopener">{TEL_CEL_FMT}</a></div></li>
             <li><span class="c-ico">{ICO['mail']}</span><div><b>E-mail</b>
               <a href="mailto:{EMAIL}">{EMAIL}</a></div></li>
           </ul>
         </div>
-        <form class="form" id="lead-form" novalidate>
-          <h3>Tenho interesse</h3>
-          <p>Conte qual curso te interessa e a secretaria entra em contato.</p>
-          <div class="field"><label for="f-nome">Nome completo</label>
-            <input id="f-nome" name="nome" type="text" required placeholder="Seu nome"></div>
-          <div class="field"><label for="f-email">E-mail</label>
-            <input id="f-email" name="email" type="email" required placeholder="voce@email.com"></div>
-          <div class="field"><label for="f-tel">Telefone / WhatsApp</label>
-            <input id="f-tel" name="telefone" type="tel" required placeholder="(48) 99999-9999"></div>
-          <div class="field"><label for="f-curso">Curso de interesse</label>
-            <select id="f-curso" name="curso">
-              <option value="">Selecione um curso</option>{opts}
-              <option value="Outro">Outro / ainda não sei</option>
-            </select></div>
-          <div class="field"><label for="f-msg">Mensagem (opcional)</label>
-            <textarea id="f-msg" name="mensagem" placeholder="Alguma dúvida específica?"></textarea></div>
-          <button class="btn btn--gold" type="submit">Enviar pelo WhatsApp</button>
-          <p class="form-note">Ao enviar, abrimos o WhatsApp com a sua mensagem pronta.</p>
-        </form>
+        <div class="contact-cta">
+          <h3>Fale com a secretaria</h3>
+          <p>Tire suas dúvidas sobre turmas, módulos e matrícula direto no WhatsApp.</p>
+          <a class="btn btn--gold" href="{WA_LINK}" target="_blank" rel="noopener">
+            Chamar no WhatsApp</a>
+          <a class="btn btn--ghost" href="tel:{TEL_FIXO}">{TEL_FIXO_FMT}</a>
+        </div>
       </div>
     </div>
   </section>

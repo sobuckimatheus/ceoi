@@ -366,42 +366,18 @@ h1,h2,h3,h4{font-family:var(--display);font-weight:600;line-height:1.08;margin:0
 .c-list a{transition:color .25s var(--ease)}
 .c-list a:hover{color:var(--gold-lt)}
 
-.form{
+.contact-cta{
   background:rgba(255,255,255,.055);
   border:1px solid var(--line-lt);
-  border-radius:var(--r);padding:clamp(1.6rem,3.4vw,2.3rem);
+  border-radius:var(--r);padding:clamp(1.8rem,3.6vw,2.6rem);
+  display:flex;flex-direction:column;align-items:flex-start;gap:.9rem;
 }
-.form h3{font-size:1.5rem;margin-bottom:.4rem}
-.form > p{font-size:.86rem;color:rgba(255,255,255,.62);margin:0 0 1.6rem}
-.field{margin-bottom:1.05rem}
-.field label{
-  display:block;font-size:.67rem;letter-spacing:.14em;
-  text-transform:uppercase;color:rgba(255,255,255,.66);
-  margin-bottom:.45rem;font-weight:600;
+.contact-cta h3{font-size:1.65rem;margin:0}
+.contact-cta p{
+  font-size:.95rem;color:rgba(255,255,255,.7);
+  margin:0 0 .5rem;max-width:36ch;
 }
-.field input,.field select,.field textarea{
-  width:100%;padding:.78rem .95rem;
-  background:rgba(255,255,255,.07);
-  border:1px solid var(--line-lt);border-radius:9px;
-  color:#fff;font-family:var(--body);font-size:.93rem;
-  transition:border-color .25s var(--ease),background .25s var(--ease);
-}
-.field textarea{resize:vertical;min-height:86px}
-.field input::placeholder,.field textarea::placeholder{color:rgba(255,255,255,.34)}
-.field input:focus,.field select:focus,.field textarea:focus{
-  outline:none;border-color:var(--gold);background:rgba(255,255,255,.1);
-}
-.field select{appearance:none;cursor:pointer;
-  background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none' stroke='%23E3C76A' stroke-width='1.8'%3E%3Cpath d='M1 1l5 5 5-5'/%3E%3C/svg%3E");
-  background-repeat:no-repeat;background-position:right 1rem center;
-  padding-right:2.5rem;
-}
-.field select option{background:var(--ink);color:#fff}
-.form .btn{width:100%;margin-top:.5rem}
-.form-note{
-  font-size:.74rem;color:rgba(255,255,255,.46);
-  text-align:center;margin:.95rem 0 0;line-height:1.5;
-}
+.contact-cta .btn{width:100%}
 
 /* ============================================================
    FOOTER

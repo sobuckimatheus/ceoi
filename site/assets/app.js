@@ -81,41 +81,4 @@
     targets.forEach(function (el) { io.observe(el); });
   }
 
-  /* ---------- Formulário → WhatsApp ---------- */
-  var form = document.getElementById('lead-form');
-
-  if (form) {
-    form.addEventListener('submit', function (ev) {
-      ev.preventDefault();
-
-      if (!form.reportValidity()) return;
-
-      var data = new FormData(form);
-      var val = function (k) { return (data.get(k) || '').toString().trim(); };
-
-      var lines = [
-        'Olá! Gostaria de mais informações.',
-        '',
-        'Nome: ' + val('nome'),
-        'E-mail: ' + val('email'),
-        'Telefone: ' + val('telefone')
-      ];
-
-      var curso = val('curso');
-      if (curso) lines.push('Curso de interesse: ' + curso);
-
-      var msg = val('mensagem');
-      if (msg) lines.push('', 'Mensagem: ' + msg);
-
-      // O número vem do botão flutuante, gerado pelo build.py, para não
-      // existir uma segunda cópia que possa ficar desatualizada aqui.
-      var wa = document.querySelector('.wa-float');
-      var num = (wa && (wa.getAttribute('href').match(/wa\.me\/(\d+)/) || [])[1])
-                || '5548991104498';
-
-      var url = 'https://wa.me/' + num + '?text=' +
-                encodeURIComponent(lines.join('\n'));
-      window.open(url, '_blank', 'noopener');
-    });
-  }
 })();
