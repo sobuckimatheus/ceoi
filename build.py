@@ -58,6 +58,22 @@ ORBIT = """<svg class="orbit" viewBox="0 0 400 400" role="img" aria-label="Marca
 <path class="isle" d="M186 150c3-1 5 2 5 5 0 6-2 12-4 18-2 5-5 10-8 9-3-1-3-6-2-11 2-8 5-19 9-21z" opacity=".55"/>
 </svg>"""
 
+GTM_ID = "GTM-NNJMXQRW"
+
+GTM_HEAD = """<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','""" + GTM_ID + """');</script>
+<!-- End Google Tag Manager -->"""
+
+GTM_BODY = """<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=""" + GTM_ID + """"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->"""
+
+
 def head(title, desc, depth=0, extra=""):
     p = "../" * depth
     return f"""<!DOCTYPE html>
@@ -65,6 +81,7 @@ def head(title, desc, depth=0, extra=""):
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+{GTM_HEAD}
 <title>{e(title)}</title>
 <meta name="description" content="{e(desc)}">
 <meta property="og:title" content="{e(title)}">
@@ -79,7 +96,8 @@ def head(title, desc, depth=0, extra=""):
 <link rel="stylesheet" href="{p}assets/style.css">
 {extra}
 </head>
-<body>"""
+<body>
+{GTM_BODY}"""
 
 def header(depth=0):
     p = "../" * depth
