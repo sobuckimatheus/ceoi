@@ -17,10 +17,13 @@ TEL_FIXO_FMT = "(48) 3025-5999"
 TEL_CEL_FMT = "(48) 99110-4498"
 EMAIL = "contato@ceoipremium.com.br"
 
-# Mensagem que já vem escrita ao abrir o WhatsApp pelos botões gerais.
-# As páginas de curso montam a própria, citando o curso.
-WA_MSG = "Vim pelo site e gostaria de mais informações"
-WA_LINK = f"https://wa.me/{WHATSAPP}?text={urllib.parse.quote(WA_MSG)}"
+# Datalitics / RespondeChat.
+# Os botões de WhatsApp apontam para este link de rastreio, e não para o
+# wa.me direto: é ele que leva a sessão do visitante (e a campanha de
+# origem) para dentro do CRM. Em troca, não é possível pré-escrever a
+# mensagem — o link de rastreio não aceita o parâmetro de texto.
+DATALITICS_CODE = "067d95773"
+WA_LINK = f"https://wp.respondechat.com.br/{DATALITICS_CODE}"
 ENDERECO = "Av. Mauro Ramos, 825, Centro<br>Florianópolis, SC, 88020-302"
 MAPS = "https://www.google.com/maps/search/?api=1&query=Av.+Mauro+Ramos,+825,+Centro,+Florian%C3%B3polis+-+SC,+88020-302"
 INSTA = "https://www.instagram.com/escolaceoipremium"
@@ -73,6 +76,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','""" + GTM_ID + """');</script>
 <!-- End Google Tag Manager -->"""
 
+DATALITICS_HEAD = """<!-- Datalitics -->
+<link rel="stylesheet" type="text/css" href="https://app.datalitics.com.br/styles/styles.min.css">
+<script src="https://cdn.datalitics.app/script_v4.min.js"></script>
+<!-- End Datalitics -->"""
+
+# Botão flutuante do Datalitics. O botão verde de WhatsApp do site foi
+# deslocado para a esquerda no CSS para os dois não se sobreporem.
+DATALITICS_BODY = """<!-- Datalitics: botão flutuante -->
+<script>var codeWpLink = \"""" + DATALITICS_CODE + """\";</script>
+<!-- End Datalitics -->"""
+
 GTM_BODY = """<!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=""" + GTM_ID + """"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -87,6 +101,7 @@ def head(title, desc, depth=0, extra=""):
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {GTM_HEAD}
+{DATALITICS_HEAD}
 <title>{e(title)}</title>
 <meta name="description" content="{e(desc)}">
 <meta property="og:title" content="{e(title)}">
@@ -102,7 +117,8 @@ def head(title, desc, depth=0, extra=""):
 {extra}
 </head>
 <body>
-{GTM_BODY}"""
+{GTM_BODY}
+{DATALITICS_BODY}"""
 
 def header(depth=0):
     p = "../" * depth
@@ -147,7 +163,6 @@ def footer(depth=0):
     </div>
   </div>
 </footer>
-<a class="wa-float" href="{WA_LINK}" target="_blank" rel="noopener" aria-label="Conversar no WhatsApp">{ICO['wa']}</a>
 <script src="{p}assets/app.js" defer></script>
 </body>
 </html>"""
@@ -410,9 +425,7 @@ def build_course(c, courses):
                        "url": "https://ceoipremium.com.br/"}}
     extra = '<script type="application/ld+json">%s</script>' % json.dumps(ld, ensure_ascii=False)
 
-    msg = f"Olá! Tenho interesse no curso de {c['tipo']} em {c['titulo']}."
-    import urllib.parse
-    wa = f"https://wa.me/{WHATSAPP}?text={urllib.parse.quote(msg)}"
+    wa = WA_LINK
 
     sub = c.get("subtitulo", "")
     sub_hero = f'<p class="detail-sub">{e(sub)}</p>' if sub else ""
