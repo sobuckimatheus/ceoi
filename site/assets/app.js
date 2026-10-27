@@ -81,4 +81,57 @@
     targets.forEach(function (el) { io.observe(el); });
   }
 
+  /* ---------- Clique em contato → dataLayer (GTM) ----------
+     A conversa acontece fora do site (Datalitics/WhatsApp), então o que
+     dá para medir aqui é o clique que leva até lá. O evento alimenta a
+     conversão do Google Ads.                                          */
+  // Um clique no widget do Datalitics chega duas vezes: na div do botão e
+  // no <a> que o script dispara em seguida. Esta janela curta garante uma
+  // conversão por clique — e também absorve duplo-clique do visitante.
+  var ultimoEnvio = 0;
+
+  function registrarContato(tipo, local) {
+    var agora = Date.now();
+    if (agora - ultimoEnvio < 1200) return;
+    ultimoEnvio = agora;
+
+    var h = document.querySelector('.detail-hero h1');
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      event: 'contato_clique',
+      contato_tipo: tipo,
+      contato_local: local,
+      contato_curso: h ? h.textContent.trim() : '(home)'
+    });
+  }
+
+  document.addEventListener('click', function (ev) {
+    // O botão flutuante do Datalitics é uma <div> com onclick, não um link.
+    if (ev.target.closest('.wp-datalitics')) {
+      registrarContato('whatsapp', 'botao-flutuante');
+      return;
+    }
+
+    var link = ev.target.closest('a[href]');
+    if (!link) return;
+
+    var href = link.getAttribute('href') || '';
+    var tipo = href.indexOf('respondechat') > -1 || href.indexOf('wa.me') > -1 ? 'whatsapp'
+             : href.indexOf('tel:') === 0 ? 'telefone'
+             : href.indexOf('mailto:') === 0 ? 'email'
+             : null;
+    if (!tipo) return;
+
+    // De onde partiu o clique, para separar as origens nos relatórios.
+    var local = link.closest('.site-header') ? 'cabecalho'
+              : link.closest('.hero') ? 'topo'
+              : link.closest('.detail-hero') ? 'pagina-curso'
+              : link.closest('.contact') ? 'contato'
+              : link.closest('.cta-band') ? 'chamada-final'
+              : link.closest('.site-footer') ? 'rodape'
+              : 'outro';
+
+    registrarContato(tipo, local);
+  }, true);
+
 })();
